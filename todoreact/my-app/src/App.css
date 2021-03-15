@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  min-height: 100vh;
+  background: linear-gradient(to left bottom, #FFE55E, #FE9E76)
+}
+
+.App {
+  text-align: center;
+  
+}
+
+.select {
+  color: white;
+}
+
+option {
+  color: white;
+  background-color: teal;
+}
+
+select {
+  color: white;
+  background-color: teal;
+}
+
+
+section {
+  display: flex; 
+  flex-direction: row;
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  transform: translate(-50%);
+}
